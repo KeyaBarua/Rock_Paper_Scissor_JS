@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+*{
+  color: white;
+  font-family: 'Domine', serif;
+}
+
+body{
+  background-color: #20262E;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.buttons{
+  display: flex;
+  gap: 20px;
+}
+
+button{
+  height: 100px;
+  width: 100px;
+  border-radius: 30px;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+.resultContainer{
+  font-size: 2rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.chances{
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.scores{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#clearGame{
+  margin-top: 10px;
+}
+
+#player-score{
+  white-space: pre;
+}
